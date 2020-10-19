@@ -1,0 +1,64 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    letter-spacing: 0.03em;
+    background-image: url("../Image/toa-heftiba-i0p916iq-ew-unsplash.jpg");
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+#form{
+    background-color: rgba(0, 0, 139, 0.8);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/*#main input {*/
+/*    height: 30px;*/
+/*    border-radius: 5px;*/
+/*}*/
+#main input{
+    padding: 0 5px;
+    border-radius: 5px;
+}
+#main select {
+    height: 40px;
+    width: 156px;
+    border-radius: 5px;
+}
+
+#main label{
+    font-size: 1.5em;
+}
+
+#main button{
+    background-color: #FCB813;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: rgb(0, 0, 139);
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+    margin-left: 30px;
+}
+
+.fields{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.to, .amount{
+    margin-left: 30px;
+}
